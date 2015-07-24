@@ -3,3 +3,6 @@ $('document').ready(function(){
     $('#about').ScrollTo();
   });
 });
+$(window).load(function(){
+  $('.hcaption').hcaptions();
+});
