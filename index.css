@@ -2,7 +2,8 @@
   position: relative;
   height: 100%;
   width: 100%;
-  background: url("images/pacman.jpg");
+  background: url("images/pacman.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 .jumbo-center{
   position: absolute;
@@ -24,14 +25,14 @@
   margin: 0;
 }
 .name-plate h1{
-  font-size: 4em;
+  font-size: 600%;
 }
 .name-plate h3{
-  font-size: 1em;
+  font-size: 150%;
   margin-bottom: 10px;
 }
 .name-plate h2{
-  font-size: 2em;
+  font-size: 300%;
   margin: 0;
   border-top: 2px solid;
   border-bottom: 2px solid;
@@ -51,7 +52,8 @@
   padding-right: 10px;
   padding-top: 7px;
   padding-bottom: 7px;
-  font-size: 1.2em;
+  font-size: 150%;
+  text-align: center;
 }
 .white-btn:hover{
   color: black;
@@ -61,14 +63,15 @@
   color: inherit;
 }
 .centered{
+  position: absolute;
   left: 50%;
-  transform: translateX(50%);
+  transform: translateX(-50%);
 }
-.about-me{
+.page{
   position: relative;
   height: 100%;
   width: 100%;
 }
-h1{
-  font-size: 10em;
+.big-head{
+  font-size: 5em;
 }
