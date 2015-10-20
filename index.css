@@ -1,93 +1,12 @@
-.jumbo{
-  position: relative;
-  height: 100%;
-  width: 100%;
-  top:0;
-  left: 0;
-  background: url("images/pacman.jpg") no-repeat center center fixed;
-  background-size: cover;
-  margin: 0;
-}
-.jumbo-center{
+@import url(https://fonts.googleapis.com/css?family=Aguafina+Script);
+.middle-vertical{
   position: absolute;
-  display: inline-block;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.name-plate{
-  border-radius: 15px;
-  border: 2px solid;
-  color: white;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  font-family: helvetica;
-}
-.name-plate h1,h3{
-  margin: 0;
-}
-.name-plate h1{
+.middle-vertical h1{
   font-size: 600%;
-}
-.name-plate h3{
-  font-size: 150%;
-  margin-bottom: 10px;
-}
-.name-plate h2{
-  font-size: 300%;
-  margin: 0;
-  border-top: 2px solid;
-  border-bottom: 2px solid;
-  padding-left: 75px;
-  padding-right: 75px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.white-btn{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  display: inline-block;
-  color: white;
-  border-radius: 8px;
-  border: 2px solid white;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  font-size: 150%;
-  text-align: center;
-}
-.white-btn:hover{
-  color: black;
-  background: white;
-}
-.white-btn a{
-  color: inherit;
-}
-.centered{
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.pages{
-  position: absolute;
-  height: 100%;
-  top: 100%;
-  margin: 0;
-}
-.page{
-  position: relative;
-  display: block;
-  margin: 0;
-  min-height: 100%;
-  width: 100%;
-}
-.page .ui.grid, .ui.divided.grid{
-  margin: 0;
-}
-.big-head{
-  display: block;
-  font-size: 600%;
-  text-align: center;
+  font-family: 'Aguafina Script', cursive;
+  text-decoration: underline;
 }
