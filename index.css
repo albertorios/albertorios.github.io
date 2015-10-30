@@ -1,12 +1,77 @@
-@import url(https://fonts.googleapis.com/css?family=Aguafina+Script);
-.middle-vertical{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+body,html{
+  height: 100%;
 }
-.middle-vertical h1{
-  font-size: 600%;
-  font-family: 'Aguafina Script', cursive;
-  text-decoration: underline;
+.jumbotron.big-yellow{
+  background: #FFEB3B;
+  min-height: 50%;
 }
+#my-name{
+  text-align: right;
+  text-transform: uppercase;
+  color: #F44336;
+}
+#my-title{
+  font-family: 'Abril Fatface', cursive;
+  color: #FFFFFF;
+}
+.left-border-div{
+  border-left: 3px dashed white;
+  padding-left: 25px;
+}
+.my-description{
+  text-align: justify;
+  hyphens: auto;
+}
+.my-links{
+  text-align: right;
+}
+.my-links .fa:hover{
+  color: #616161;
+}
+.college-title{
+  color: #F44336;
+}
+.about-me-p{
+  font-size: 16pt;
+  padding-left: 3%;
+  font-family: 'EB Garamond', serif;
+}
+.about-me-titles{
+  color: #616161;
+  font-family: 'Josefin Slab', serif;
+}
+.currently-doing{
+  font-size: 20pt;
+  border-left: 5px solid #9E9E9E;
+  padding: 2% 5%;
+  color: #212121;
+}
+.portfolio{
+  font-size: 800%;
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.portfolio-item:hover{
+  width: 106%;
+  height: 106%;
+  transform: translate(-3%,-3%);
+}
+.portfolio-item  h1{
+  margin: 0;
+  background: #F44336;
+  padding: 2%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.portfolio-item  img{
+  width: 100%;
+  height: auto;
+}
+.contact-me{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.
